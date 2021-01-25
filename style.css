@@ -303,12 +303,25 @@ section{
     transition: all 0.3s ease;
 }
 
-.games .card .box > img{
+.games .games-content a, 
+.games .games-content a:visited,
+.games .games-content a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.games .card .box > a img{
     height: 150px;
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
     border: 2px solid #566f88;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .box>div{
