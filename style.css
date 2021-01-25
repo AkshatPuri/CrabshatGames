@@ -165,7 +165,7 @@ section{
     padding: 100px 0;
 }
 
-.about, .games, .contact{
+.about, .skills, .games, .contact{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -191,6 +191,7 @@ section{
 }
 
 .about .about-content,
+.skills .skills-content,
 .games .games-content,
 .contact .contact-content{
     display: flex;
@@ -247,19 +248,53 @@ section{
     background: none;
 }
 
-/* Games Section styling */
+/* Skills Section styling */
 
-.games{
+.skills{
     color: #eaeef9;
-    background: #566f88;
+    background-color: #566f88;
 }
 
-.games .title::before{
+.skills .title::before{
     background: #eaeef9;
 }
 
+.skills .skill-box{
+    /* background: #eaeef9;
+    color: #000000; */
+    height: 150px;
+    padding: 25px;
+    width: 25%;
+    /* margin: 2px; */
+}
+
+.heading{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 26px;
+    padding: 3px;
+}
+
+.text{
+    padding: 5px;
+    font-size: 20px;
+}
+
+.text span{
+    color: #000000;
+}
+
+/* Games Section styling */
+
+.games{
+    color: #000000;
+}
+
+.games .title::before{
+    background: #000000;
+}
+
 .games .card{
-    background: #293e53;
+    background: #eaeef9;
     border-radius: 6px;
     padding: 25px 35px;
     margin: 2px;
@@ -273,7 +308,7 @@ section{
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 2px solid #eaeef9;
+    border: 2px solid #566f88;
 }
 
 .box>div{
@@ -304,10 +339,10 @@ a img.badge{
 }
 .box span a{
     text-decoration: none;
-    color: #eaeef9;
+    color: #000000;
 }
 .games .games-content .card:hover{
-    background: #252525;
+    background: #83a1be;
 }
 
 .games .games-content .card .box{
@@ -471,6 +506,10 @@ a img.badge{
         flex: 100%;
     }
 
+    .skills .skill-box{
+        width: 50%;
+    }
+
     .games .games-content .card{
         width: calc(85% - 20px);
     }
@@ -548,6 +587,10 @@ a img.badge{
     .home .home-content a{
         font-size: 20px;
         padding: 8px 25px;
+    }
+
+    .skills .skill-box{
+        width: 100%;
     }
 
     .games .games-content .card{
