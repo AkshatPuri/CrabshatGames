@@ -165,7 +165,7 @@ section{
     padding: 100px 0;
 }
 
-.about, .skills, .games, .contact{
+.about, .skills, .games, .projects, .contact{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -193,6 +193,7 @@ section{
 .about .about-content,
 .skills .skills-content,
 .games .games-content,
+.projects .project-content,
 .contact .contact-content{
     display: flex;
     flex-wrap: wrap;
@@ -365,6 +366,39 @@ a img.badge{
 .games .games-content .card:hover .box{
     transform: scale(1.05);
 }
+
+/* Personal Projects Section styling */
+
+.projects{
+    color: #eaeef9;
+    background-color: #566f88;
+}
+
+.projects .title::before{
+    background: #eaeef9;
+}
+
+.project-content .project-card{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background: rgba(41, 62, 83, 0.8); */
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.project-content .project-card img{
+    max-width: 300px;
+    background-size: cover;
+}
+
+.project-content .project-card img:hover{
+    transform: scale(1.02);
+    transition: transform 0.2s ease-in-out;
+}
+
 
 /* Contact Section styling */
 
