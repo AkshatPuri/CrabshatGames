@@ -24,6 +24,18 @@
     z-index: 999;
 }
 
+nav.navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
 .navbar.sticky{
     padding: 15px 0px;
     background: #293e53;
@@ -114,6 +126,7 @@
     background: url('img/bg.png') no-repeat center;
     height: 100vh;
     color: #eaeef9;
+    background-color: #000000;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
 }
