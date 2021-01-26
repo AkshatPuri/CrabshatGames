@@ -405,13 +405,35 @@ a img.badge{
 .project-content .project-card img{
     max-width: 300px;
     background-size: cover;
+    border-radius: 10px;
 }
 
 .project-content .project-card img:hover{
     transform: scale(1.02);
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.5s ease-out;
 }
 
+.project-content div.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-content div.buttons button{
+    padding: 5px 10px;
+    margin: 10px;
+    color: #eaeef9;
+    border: 0;
+    border-radius: 3px;
+}
+
+.project-content div.buttons #btn1{
+    background-color: rgb(23, 88, 114);
+}
+
+.project-content div.buttons #btn2{
+    background-color: rgb(39, 133, 21);
+}
 
 /* Contact Section styling */
 
