@@ -329,6 +329,17 @@ section{
     margin-left: -100%;
   }
 
+  /* Gameplay styling */
+
+  .video{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .video video{
+      width: 600px;
+      margin: 50px;
+  }
 
   /* Contact Section styling */
   .contact .contact-content{
