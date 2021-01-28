@@ -307,6 +307,12 @@ section{
     background: #000000;
 }
 
+div.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .games .card{
     background: #eaeef9;
     border-radius: 6px;
@@ -403,7 +409,7 @@ a img.badge{
 }
 
 .project-content .project-card img{
-    max-width: 300px;
+    max-width: 350px;
     background-size: cover;
     border-radius: 10px;
 }
@@ -413,13 +419,13 @@ a img.badge{
     transition: transform 0.5s ease-out;
 }
 
-.project-content div.buttons{
+div.buttons{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.project-content div.buttons button{
+div.buttons button{
     padding: 5px 10px;
     margin: 10px;
     color: #eaeef9;
@@ -427,14 +433,25 @@ a img.badge{
     border-radius: 3px;
 }
 
-.project-content div.buttons #btn1{
+div.buttons #btn1{
     background-color: rgb(23, 88, 114);
 }
 
-.project-content div.buttons #btn2{
+div.buttons #btn2{
     background-color: rgb(39, 133, 21);
 }
 
+div.highlights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+div.highlights ul{
+    list-style: none;
+}
 /* Contact Section styling */
 
 .contact .contact-content .column{
@@ -601,6 +618,13 @@ a img.badge{
         margin-bottom: 35px;
     }
 }
+
+@media (max-width: 830px){
+    .project-content .project-card img{
+        max-width: 280px;
+    }
+}
+
 @media (max-width: 688px){
     .menu-btn{
         display: block;
@@ -652,6 +676,15 @@ a img.badge{
     }
 }
 
+@media (max-width: 680px){
+    .project-content .project-card img{
+        max-width: 300px;
+    }
+    .project-content .project-card{
+        width: 100%;
+    }
+}
+
 @media (max-width: 500px){
     .max-width{
         padding: 0px 25px;
@@ -680,6 +713,14 @@ a img.badge{
     }
 }
 
+@media (max-width: 416px){
+    .project-content .project-card img{
+        max-width: 250px;
+    }
+    .project-content .project-card{
+        width: 100%;
+    }
+}
 
 @media (max-width: 402px){
     .max-width{
