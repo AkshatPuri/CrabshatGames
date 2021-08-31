@@ -26,7 +26,7 @@
 
 nav.navbar::before{
     content: "";
-    background-color: black;
+    background-color: #222831;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -123,10 +123,10 @@ nav.navbar::before{
 
 .home{
     display: flex;
-    background: url('img/bg.png') no-repeat center;
+    /* background: url('img/bg.png') no-repeat center; */
     height: 100vh;
     color: #eaeef9;
-    background-color: #000000;
+    background-color: #222831;
     min-height: 500px;
     font-family: 'Ubuntu', sans-serif;
 }
@@ -266,7 +266,7 @@ section{
 
 .skills{
     color: #eaeef9;
-    background-color: #566f88;
+    background-color: #222831;
 }
 
 .skills .title::before{
@@ -390,7 +390,7 @@ a img.badge{
 
 .projects{
     color: #eaeef9;
-    background-color: #566f88;
+    background-color: #222831;
 }
 
 .projects .title::before{
