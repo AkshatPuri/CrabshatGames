@@ -1,5 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +12,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 </head>
+
 <body>
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
@@ -23,11 +26,11 @@
         <div class="max-width">
             <div class="logo"><a href="#home">Limb<span>void</span></a></div>
             <ul class="menu">
-                <li><a href="#home" class="menu-btn">Home</a></li>
-                <li><a href="#about" class="menu-btn">About</a></li>
-                <li><a href="#skills" class="menu-btn">Skills</a></li>
-                <li><a href="#projects" class="menu-btn">Projects</a></li>
-                <li><a href="#contact" class="menu-btn">Contact</a></li>
+                <li><a href="#home" class="menu-btn scroll">Home</a></li>
+                <li><a href="#about" class="menu-btn scroll">About</a></li>
+                <li><a href="#games" class="menu-btn scroll">Games</a></li>
+                <li><a href="#projects" class="menu-btn scroll">Projects</a></li>
+                <li><a href="#contact" class="menu-btn scroll">Contact</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -52,15 +55,17 @@
         <div class="max-width">
             <h2 class="title">About Me</h2>
             <div class="about-content">
-               <div class="column left">
-                   <img src="img/photu.jpg" alt="">
-               </div>
-               <div class="column right">
-                   <div class="text">Hello, I'm &nbsp;<span>Akshat.</span></div>
-                   <p>I am 20 years old Computer Science student and Indie game developer. I am currently studying in Backstage Pass Institute of Gaming and Technology, Hyderabad.</p>
-                   <a href="https://blog.backstagepass.co.in/uncategorized/learn-tips-on-building-and-monetizing-a-game-backstagepass/" target="_blank">My Blog</a>
-                   <a href="https://www.youtube.com/watch?v=whk_Isv_YpY" target="_blank">My Video</a>
-               </div>
+                <div class="column left">
+                    <img src="img/photu.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">Hello, I'm &nbsp;<span>Akshat.</span></div>
+                    <p>I am 20 years old Computer Science student and Indie game developer. I am currently studying in
+                        Backstage Pass Institute of Gaming and Technology, Hyderabad.</p>
+                    <a href="https://blog.backstagepass.co.in/uncategorized/learn-tips-on-building-and-monetizing-a-game-backstagepass/"
+                        target="_blank">My Blog</a>
+                    <a href="https://www.youtube.com/watch?v=whk_Isv_YpY" target="_blank">My Video</a>
+                </div>
             </div>
         </div>
     </section>
@@ -93,45 +98,84 @@
     </section>
 
     <!-- Games Section -->
-    <section class="games" id="projects">
+    <section class="games" id="games">
         <div class="max-width">
-            <h2 class="title">My Released Games</h2>
-            <div class="games-content">  
-                <a href="trip.html"> 
+            <h2 class="title">My Released Games (C#, Unity)</h2>
+            <div class="games-content">
+
                 <div class="card">
-                     <div class="box">
-                        <div class="center"><img src="img/triplogo.webp" alt=""></div>
-                        <div class="text">Trip:Endless Runner</div>
+                    <div class="left-card center">
+                        <img src="gifs/screamgif.gif" alt="">
+                    </div>
+                    <div class="right-card center">
+                        <h2>Scream Way Up</h2>
+                        <div class="buttons">
+                            <button id="btn1">C#</button>
+                            <button id="btn2">Unity</button>
+                        </div>
+                        <p>Scream way up is a fun, voice controlled high score game with cute little characters waiting to get to the top.</p>
+                          <p> Timing and the best shout/scream will make a high score.
+                            Beware of all the tricky platforms and scream them up, don't fall down otherwise boom its game over!</p>
+                        <p>Play Now!</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.Limbvoid.ScreamWayUp" target="_blank"><img src="img/gp.png" alt="Google Play Store badge" class="badge"></a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="left-card center">
+                        <img src="gifs/antsgif.gif" alt="">
+                    </div>
+                    <div class="right-card center">
+                        <h2>Smash Ant : Ant Smasher Game</h2>
+                        <div class="buttons">
+                            <button id="btn1">C#</button>
+                            <button id="btn2">Unity</button>
+                        </div>
+                        <p>Enjoy this addictive ant smashing game. Smash ant is single tap game with amazing power-ups
+                            so you spend hours playing it with one hand.</p>
+                        <p>Play Now!</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.Tentaxaur.SmashAnt"
+                            target="_blank"><img src="img/gp.png" alt="Google Play Store badge" class="badge"></a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="left-card center">
+                        <img src="gifs/dotsgif.gif" alt="">
+                    </div>
+                    <div class="right-card center">
+                        <h2>Dots...</h2>
+                        <div class="buttons">
+                            <button id="btn1">C#</button>
+                            <button id="btn2">Unity</button>
+                        </div>
+                        <p>Dots... is a game full of dots and different unlockable cannons. Dots is a hyper casual
+                            relaxing game with the most minimalistic design. Try every level as every level is randomly
+                            generated and unique. Patience is required to play through all the levels.</p>
+                        <p>Play Now!</p>
+                        <a href="https://play.google.com/store/apps/details?id=com.Crabshat.Dots" target="_blank"><img
+                                src="img/gp.png" alt="Google Play Store badge" class="badge"></a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="left-card center">
+                        <img src="gifs/tripgif.gif" alt="">
+                    </div>
+                    <div class="right-card center">
+                        <h2>Trip : Endless Runner</h2>
                         <div class="buttons">
                             <button id="btn1">C#</button>
                             <button id="btn2">Unity</button>
                         </div>
                         <p>Trip is about the trip of a creature in 2 different worlds where he has to dodge the obstacles to move forward. The obstacles are sometimes not visible so the player has to check for them in every lane before making their move.</p>
-                        <span><a href="trip.html">Learn More!</a></span>
-                        <span>Play Now!</span>
+                        <p>Play Now!</p>
                         <div>
                             <a href="https://play.google.com/store/apps/details?id=com.Crabshat.Trip" target="_blank"><img src="img/gp.png" alt="Google Play Store badge"  class="badge"></a>
                             <a href="https://apps.apple.com/us/app/trip-endless-runner/id1536325530#?platform=iphone" target="_blank"><img src="img/as.png" alt="App Store badge"  class="badge"></a> 
                         </div>
                     </div>
-                </div></a>   
-                <a href="dots.html">
-                <div class="card">
-                    <div class="box">
-                        <div class="center"><img src="img/dotslogo.webp" alt=""></div>
-                        <div class="text">Dots...</div>
-                        <div class="buttons">
-                            <button id="btn1">C#</button>
-                            <button id="btn2">Unity</button>
-                        </div>
-                        <p>Dots... is a game full of dots and different unlockable cannons. Dots is a hyper casual relaxing game with the most minimalistic design. Try every level as every level is randomly generated and unique. Patience is required to play through all the levels.</p>
-                        <span><a href="dots.html">Learn More!</a></span>
-                        <span>Play Now!</span>
-                        <div>
-                            <a href="https://play.google.com/store/apps/details?id=com.Crabshat.Dots" target="_blank"><img src="img/gp.png" alt="Google Play Store badge"  class="badge"></a>
-                        </div>
-                    </div>
-                </div></a>
+                </div>
             </div>
         </div>
     </section>
@@ -140,11 +184,14 @@
 
     <section class="projects" id="projects">
         <div class="max-width">
-            <h2 class="title">Personal Projects</h2>
+            <h2 class="title">Personal Projects (C++)</h2>
             <div class="project-content">
-                <div class="project-card">
-                    <a href="LongPong.html"><img src="img/longponggif.gif" alt=""></a>
-                    <h2>Long Pong</h2>
+                <div class="card">
+                    <div class="left-card">
+                        <img src="gifs/ponggif.gif" alt="">
+                    </div>
+                    <div class="right-card">
+                        <h2>Long Pong</h2>
                     <div class="buttons">
                         <button id="btn1">C++</button>
                         <button id="btn2">SFML</button>
@@ -159,10 +206,15 @@
                             <li>-Progressive difficulty.</li>
                         </ul>
                     </div>
+                    </div>
                 </div>
-                <div class="project-card">
-                    <a href="FlutteryBird.html"><img src="img/flutterybirdgif.gif" alt=""></a>
-                    <h2>Fluttery Bird</h2>
+
+                <div class="card">
+                    <div class="left-card">
+                        <img src="gifs/flattybirdgif.gif" alt="">
+                    </div>
+                    <div class="right-card">
+                        <h2>Fluttery Bird</h2>
                     <div class="buttons">
                         <button id="btn1">C++</button>
                         <button id="btn2">SFML</button>
@@ -176,6 +228,7 @@
                             <li>-Randomly generated levels.</li>
                             <li>-Collision detection.</li>
                         </ul>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -199,7 +252,8 @@
                             </div>
                         </div>
                         <div class="row">
-                            <a href="https://www.instagram.com/limbvoid/" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+                            <a href="https://www.instagram.com/limbvoid/" target="_blank"><i
+                                    class="fab fa-instagram fa-3x"></i></a>
                             <div class="info">
                                 <div class="head">Instagram</div>
                                 <div class="sub-text">limbvoidgames</div>
@@ -211,6 +265,9 @@
                                 <div class="head">Email</div>
                                 <div class="sub-text">crabshatgames@gmail.com</div>
                             </div>
+                        </div>
+                        <div class="row center button">
+                            <a href="policy.html" target="_blank"><button>Privacy Policy</button></a>  
                         </div>
                     </div>
                 </div>
@@ -234,13 +291,14 @@
                         </div>
                         <div class="button">
                             <button type="submit">Send Message</button>
-                        </div>            
+                        </div>
                     </form>
                 </div>
             </div>
         </div>
     </section>
-
+    <script src="scroll.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
