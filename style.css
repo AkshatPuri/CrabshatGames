@@ -322,6 +322,7 @@ div.text{
 
 .left-card img{
     max-width: 500px;
+    border-radius: 10px;
 }
 
 .right-card{
@@ -539,6 +540,19 @@ div.highlights ul{
     }
 }
 
+@media (max-width: 1258px){
+    .games .games-content .left-card img{
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 910px){
+    .games .games-content .left-card img,
+    .projects .project-content .left-card img{
+        max-width: 350px;
+    }
+}
+
 @media (max-width: 1100px){
     .about .about-content .left img{
         height: 330px;
@@ -551,6 +565,13 @@ div.highlights ul{
         padding: 0px 40px;
     }
 }
+
+@media (max-width: 848px){
+    .card{
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 836px){
         
     .max-width{
@@ -575,22 +596,9 @@ div.highlights ul{
         width: 50%;
     }
 
-    .games .games-content .vertical-card,
-    .games .games-content .horizontal-card
-    {
-        width: calc(85% - 20px);
-        flex-wrap: wrap;
-    }
-
     .contact .contact-content .column{
         width: 100%;
         margin-bottom: 35px;
-    }
-}
-
-@media (max-width: 830px){
-    .project-content .project-card img{
-        max-width: 280px;
     }
 }
 
@@ -644,7 +652,7 @@ div.highlights ul{
         padding: 10px 30px;
     }
 }
-
+/* 
 @media (max-width: 680px){
     .project-content .project-card img{
         max-width: 300px;
@@ -655,7 +663,7 @@ div.highlights ul{
     .card-up .center img{
         max-width: 300px;
     }
-}
+} */
 
 @media (max-width: 500px){
     .max-width{
@@ -679,7 +687,21 @@ div.highlights ul{
     .skills .skill-box{
         width: 100%;
     }
+}
 
+@media (max-width: 474px){
+    .games .games-content .left-card img,
+    .projects .project-content .left-card img{
+        max-width: 100%;
+    }
+
+    .games .games-content .right-card h2,
+    .games .games-content .right-card h2{
+        font-size: 20px;
+    }
+}
+
+/* 
     .games .games-content .vertical-card,
     .games .games-content .horizontal-card{
         width: 100%;
@@ -690,9 +712,8 @@ div.highlights ul{
     }
     .project-content .project-card img{
         max-width: 280px;
-    }
-}
-
+    } */
+/* 
 @media (max-width: 416px){
     .project-content .project-card img{
         max-width: 250px;
@@ -700,7 +721,7 @@ div.highlights ul{
     .project-content .project-card{
         width: 100%;
     }
-}
+} */
 
 @media (max-width: 402px){
     .max-width{
@@ -721,9 +742,9 @@ div.highlights ul{
         padding: 6px 23px;
     }
 
-    .games .games-content .card{
+    /* .games .games-content .card{
         width: 100%;
-    }
+    } */
     a img.badge{
         width: 120px;
         margin: 2px 2px;
