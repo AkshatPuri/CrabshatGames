@@ -318,11 +318,12 @@ div.text{
     justify-content: center;
     align-items: center;
     padding-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .left-card img{
     max-width: 500px;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 .right-card{
@@ -370,7 +371,7 @@ div.text{
 .project-content .card img{
     max-width: 500px;
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 .project-content .card img:hover{
