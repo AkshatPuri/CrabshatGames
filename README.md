@@ -1,5 +1,5 @@
 # Limbvoid Games
 
-This is the portfolio website of CrabshatGames. 
+This is the portfolio website of LimbvoidGames. 
 You can check the website at:-
- https://akshatpuri.github.io/CrabshatGames/
+ https://akshatpuri.github.io/LimbvoidGames/
