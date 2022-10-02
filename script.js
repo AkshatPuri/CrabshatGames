@@ -31,7 +31,7 @@ $(document).ready(function(){
     //Typing Animation script
 
     var typed = new Typed(".typing", {
-        strings:["a Student.", "an Indie Game Dev."],
+        strings:["a Student.", "a Game Programmer."],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true

@@ -8,8 +8,8 @@
 }
 
 .max-width{
-    max-width: 1300px;
-    padding: 0px 80px;
+    max-width: 2500px;
+    padding: 0px 20px;
     margin: auto;
 }
 
@@ -50,7 +50,7 @@ nav.navbar::before{
 .navbar .logo a{
     font-family: 'Poiret One', cursive;
     color: #eaeef9;
-    font-size: 35px;
+    font-size: 4rem;
     font-weight: 700;
 }
 
@@ -131,26 +131,79 @@ nav.navbar::before{
     font-family: 'Ubuntu', sans-serif;
 }
 
+.home-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content .home-left{
+    width: 90%;
+}
+
+.home .home-content .home-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content .home-right .right .text{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.home-content .home-right .right p{
+    text-align: justify;
+}
+
+.home-content .home-right .left img{
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.home .home-content .home-right .right a{
+    display: inline-block;
+    background: #566f88;
+    color: #eaeef9;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 6px 15px;
+    margin-top: 20px;
+    margin-right: 5px;
+    border-radius: 6px;
+    border: 2px solid #566f88;
+    transition: all 0.3s ease-out;
+}
+
+.home .home-content .home-right .right a:hover{
+    color: #566f88;
+    background: none;
+}
+
 .home .max-width{
     margin: auto 0px auto 40px;
 }
 
-.home .home-content .text-1{
+.home .home-content .home-left .text-1{
     font-size: 27px;
 }
 
-.home .home-content .text-2{
+.home .home-content .home-left .text-2{
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
 }
 
-.home .home-content .text-3{
+.home .home-content .home-left .text-3{
     font-size: 40px;
     margin: 5px 0;
 }
 
-.home .home-content .text-3 span{
+.home .home-content .home-left .text-3 span{
     color: #566f88;
     font-weight: 500;
 }
@@ -175,7 +228,7 @@ nav.navbar::before{
 /* About Section styling */
 
 section{
-    padding: 100px 0;
+    padding: 20px 0;
 }
 
 .about, .skills, .games, .projects, .contact{
