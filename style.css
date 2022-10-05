@@ -344,7 +344,7 @@ div.text{
     text-align: justify;
 }
 
-.badge{
+.right-card .badge{
     max-width: 120px;
     text-align: center;
 }
@@ -368,13 +368,13 @@ div.text{
     padding: 50px;
 }
 
-.project-content .card img{
+.project-content .left-card img{
     max-width: 500px;
     background-size: cover;
     border-radius: 30px;
 }
 
-.project-content .card img:hover{
+.project-content .left-card img:hover{
     transform: scale(1.02);
     transition: transform 0.5s ease-out;
     cursor: pointer;
