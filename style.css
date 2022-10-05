@@ -321,6 +321,11 @@ div.text{
     margin-bottom: 50px;
 }
 
+.games-card{
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
 .left-card img{
     max-width: 500px;
     border-radius: 30px;
@@ -359,12 +364,16 @@ div.text{
     background: #eaeef9;
 }
 
-.project-content, .games-content{
+.project-content{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 50px;
+}
+
+.games-content{
     padding: 50px;
 }
 
