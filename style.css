@@ -326,12 +326,36 @@ div.text{
     margin-bottom: 30px;
 }
 
+.games-card .icons img{
+    width: 30px;
+    margin: 10px;
+}
+
+.games-card .icons img:hover{
+    width: 32px;
+}
+
+.games-card .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .left-card img{
     max-width: 500px;
     border-radius: 30px;
 }
 
 .right-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    width: 520px;
+}
+
+.prof-right-card{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -422,6 +446,7 @@ div.highlights{
 div.highlights ul{
     list-style: none;
 }
+
 /* Contact Section styling */
 
 .contact .contact-content .column{
