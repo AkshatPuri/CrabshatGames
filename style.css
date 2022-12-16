@@ -233,6 +233,7 @@ section{
     width: 300px;
     object-fit: cover;
     border-radius: 180px;
+    border: 5px solid #d5823e;
 }
 
 .about .about-content .right{
