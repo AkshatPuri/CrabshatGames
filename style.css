@@ -242,7 +242,7 @@ section{
 .about .about-content .right .text{
     font-size: 25px;
     font-weight: 400;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .about .about-content .right .text span{
@@ -273,6 +273,7 @@ section{
     border: 2px solid #566f88;
     transition: all 0.3s ease-out;
 }
+
 
 .about .about-content .right a:hover{
     color: #566f88;
@@ -326,6 +327,7 @@ section{
 }
 
 .about .about-content .right .icons .row{
+    margin-top: 20px;
     display: flex;
     height: 65px;
     align-items: center;
@@ -337,7 +339,7 @@ section{
 
 .about .about-content .right .icons .row i{
     font-size: 3rem;
-    color: #ffffff;
+    color: #d5823e;
     transition: all 0.3s ease;
 }
 
