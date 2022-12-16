@@ -217,6 +217,11 @@ section{
 .about{
     color: #eaeef9;
     background-color: #222831;
+    /* padding-top: 200px; */
+}
+
+.about .about-content{
+    padding-top: 150px;
 }
 
 .about .about-content .left{
@@ -246,6 +251,7 @@ section{
 
 .about .about-content .right p{
     text-align: justify;
+    margin-bottom: 10px;
 }
 
 /* .about .about-content .right .about-links a{
@@ -309,6 +315,14 @@ section{
     border: 0px;
     padding: 2px;
     margin: 1px;
+    margin-top: 20px;
+}
+
+.about .about-content .right .about-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
 
 .about .about-content .right .icons .row{
@@ -359,6 +373,11 @@ section{
 
 .games .title::before{
     background: #000000;
+}
+
+.games .games-content .games-card .prof-right-card a{
+    text-decoration: none;
+    color: #eaeef9;
 }
 
 div.text{
