@@ -78,11 +78,11 @@ nav.navbar::before{
 }
 
 .navbar .menu li a:hover{
-    color: #566f88;
+    color: #d5823e;
 }
 
 .navbar.sticky .menu li a:hover{
-    color: #eaeef9;
+    color: #d5823e;
 }
 
 /* Menu Button styling */
@@ -401,16 +401,19 @@ div.text{
     align-items: center;
     padding-bottom: 20px;
     margin-bottom: 50px;
+  
 }
 
 .games-card{
     padding-bottom: 20px;
     margin-bottom: 30px;
+   
 }
 
 .games-card .icons img{
     width: 30px;
     margin: 10px;
+
 }
 
 .games-card .icons img:hover{
@@ -426,6 +429,7 @@ div.text{
 .left-card img{
     max-width: 500px;
     border-radius: 30px;
+    border: 3px solid #ffffff;
 }
 
 .right-card{
@@ -435,6 +439,7 @@ div.text{
     flex-direction: column;
     margin: 10px;
     width: 520px;
+    
 }
 
 .prof-right-card{
