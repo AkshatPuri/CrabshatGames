@@ -373,9 +373,6 @@ section{
 /* Games Section styling */
 
 .games{
-    color: #000000;
-}
-.games{
     color: #eaeef9;
     background-color: #222831;
 }
@@ -434,6 +431,12 @@ div.text{
     border: 3px solid #ffffff;
 }
 
+ .left-card img:hover{
+    transform: scale(1.02);
+    transition: transform 0.5s ease-out;
+    cursor: pointer;
+ }
+
 
 
 .right-card{
@@ -458,6 +461,12 @@ div.text{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .games-content{
@@ -539,6 +548,24 @@ div.highlights ul{
 }
 
 
+
+/* Random-Stuff Section styling */
+.random-stuff{
+    color: #eaeef9;
+    background-color: #222831;
+}
+
+.random-stuff .title::before{
+    background: #eaeef9;
+}
+
+ .small-card img{
+    max-width: 300px;
+    background-size: cover;
+    border-radius: 17px;
+    border: 3px solid #ffffff;
+    margin: 10px;
+}
 
 /* Responsive Media Query START */
 
