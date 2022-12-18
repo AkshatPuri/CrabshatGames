@@ -13,6 +13,25 @@
     margin: auto;
 }
 
+section{
+    padding: 100px 0;
+}
+
+.heading{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 26px;
+    padding: 3px;
+}
+
+.text{
+    padding: 5px;
+    font-size: 20px;
+}
+
+.text span{
+    color: #000000;
+}
+
 /* Navbar stlyling */
 
 .navbar{
@@ -121,11 +140,7 @@ nav.navbar::before{
 
 /* About Section styling */
 
-section{
-    padding: 100px 0;
-}
-
-.about, .skills, .games, .projects, .contact{
+.about, .skills, .games, .projects, .random-stuff{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -154,7 +169,7 @@ section{
 .skills .skills-content,
 .games .games-content,
 .projects .project-content,
-.contact .contact-content{
+.random-stuff .random-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -164,7 +179,6 @@ section{
 .about{
     color: #eaeef9;
     background-color: #222831;
-    /* padding-top: 200px; */
 }
 
 .about .about-content{
@@ -204,7 +218,6 @@ section{
 
 .about .about-content .right a{
     display: inline-block;
-    /* background: #566f88; */
     color: #eaeef9;
     font-size: 20px;
     font-weight: 400;
@@ -216,27 +229,9 @@ section{
     transition: all 0.3s ease-out;
 }
 
-
 .about .about-content .right a:hover{
     color: #566f88;
     background: none;
-}
-
-/* Skills Section styling */
-
-.skills{
-    color: #eaeef9;
-    background-color: #222831;
-}
-
-.skills .title::before{
-    background: #eaeef9;
-}
-
-.skills .skill-box{
-    height: 150px;
-    padding: 25px;
-    width: 25%;
 }
 
 .about .about-content .right .icons{
@@ -248,6 +243,7 @@ section{
 .about .about-content .right .icons .icon-img{
     margin: 10px;
 }
+
 .about .about-content .right .icons a{
     color: #222831;
     text-decoration: none;
@@ -293,19 +289,21 @@ section{
     font-size: 2.2rem;
 }
 
-.heading{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 26px;
-    padding: 3px;
+/* Skills Section styling */
+
+.skills{
+    color: #eaeef9;
+    background-color: #222831;
 }
 
-.text{
-    padding: 5px;
-    font-size: 20px;
+.skills .title::before{
+    background: #eaeef9;
 }
 
-.text span{
-    color: #000000;
+.skills .skill-box{
+    height: 150px;
+    padding: 25px;
+    width: 25%;
 }
 
 /* Games Section styling */
@@ -507,22 +505,16 @@ div.highlights ul{
 
 /* Responsive Media Query START */
 
-@media (max-width: 1300px){
-    .home .max-width{
-        margin-left: 0px;
-    }
-}
-
 @media (max-width: 1258px){
     .games .games-content .left-card img{
-        max-width: 400px;
+        max-width: 300px;
     }
 }
 
 @media (max-width: 910px){
     .games .games-content .left-card img,
     .projects .project-content .left-card img{
-        max-width: 350px;
+        max-width: 300px;
     }
 }
 
@@ -539,16 +531,16 @@ div.highlights ul{
     }
 }
 
-@media (max-width: 848px){
+@media (max-width: 1180px){
     .card{
         flex-direction: column;
     }
 }
 
-@media (max-width: 836px){
+@media (max-width: 1100px){
         
     .max-width{
-        max-width: 800px;
+        max-width: 1100px;
     }
 
     .about .about-content .column{
@@ -575,7 +567,35 @@ div.highlights ul{
     }
 }
 
-@media (max-width: 688px){
+@media (max-width: 896px){
+    .random-stuff .random-content .small-card .left-card img{
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 700px){
+    .random-stuff .random-content .small-card .left-card img{
+        max-width: 170px;
+    }
+}
+
+@media (max-width: 630px){
+    .about .about-content .left img{
+        height: 200px;
+        width: 200px;
+    }
+    .projects .project-content .card .right-card{
+        max-width: 200px;
+    }
+    .projects .project-content .card .right-card p{
+        font-size: 12px;
+    }
+    .random-stuff .random-content .small-card .left-card img{
+        max-width: 130px;
+    }
+}
+
+@media (max-width: 855px){
     .menu-btn{
         display: block;
         z-index: 999;
@@ -610,55 +630,26 @@ div.highlights ul{
         margin: 20px 0;
         font-size: 25px;
     }
-
-    .home .home-content .text-2{
-        font-size: 66px;
-    }
-    
-    .home .home-content .text-3{
-        font-size: 32px;
-        margin: 5px 0;
-    }
-
-    .home .home-content a{
-        font-size: 23px;
-        padding: 10px 30px;
-    }
 }
-/* 
-@media (max-width: 680px){
-    .project-content .project-card img{
-        max-width: 300px;
-    }
-    .project-content .project-card{
-        width: 100%;
-    }
-    .card-up .center img{
-        max-width: 300px;
-    }
-} */
 
 @media (max-width: 500px){
     .max-width{
         padding: 0px 25px;
     }
 
-    .home .home-content .text-2{
-        font-size: 57px;
-    }
-    
-    .home .home-content .text-3{
-        font-size: 28px;
-        margin: 5px 0;
-    }
-
-    .home .home-content a{
-        font-size: 20px;
-        padding: 8px 25px;
-    }
-
     .skills .skill-box{
         width: 100%;
+    }
+
+    .random-stuff .random-content .small-card .left-card{
+        flex-direction: column;
+    }
+
+    .about .about-content .right .icons{
+        margin: 2px 2px;
+    }
+    .about .about-content .right .icons .row a i{
+        font-size: 1.5rem;
     }
 }
 
@@ -714,10 +705,6 @@ div.highlights ul{
         font-size: 18px;
         padding: 6px 23px;
     }
-
-    /* .games .games-content .card{
-        width: 100%;
-    } */
     a img.badge{
         width: 120px;
         margin: 2px 2px;
