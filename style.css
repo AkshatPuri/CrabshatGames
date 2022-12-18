@@ -104,7 +104,7 @@ nav.navbar::before{
     color: #d5823e;
 }
 
-/* Menu Button styling */
+/*#region Menu Button styling */
 
 .menu-btn{
     color: #eaeef9;
@@ -117,7 +117,7 @@ nav.navbar::before{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: #252525;
+    background: #d5823e;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -137,8 +137,9 @@ nav.navbar::before{
     opacity: 1;
     pointer-events: auto;
 }
+/*#endregion*/
 
-/* About Section styling */
+/*#region About Section styling */
 
 .about, .skills, .games, .projects, .random-stuff{
     font-family: 'Poppins', sans-serif;
@@ -288,8 +289,9 @@ nav.navbar::before{
     color: #000000;
     font-size: 2.2rem;
 }
+/*#endregion*/
 
-/* Skills Section styling */
+/*#region Skills Section styling */
 
 .skills{
     color: #eaeef9;
@@ -305,8 +307,9 @@ nav.navbar::before{
     padding: 25px;
     width: 25%;
 }
+/*#endregion*/
 
-/* Games Section styling */
+/*#region Games Section styling */
 
 .games{
     color: #eaeef9;
@@ -413,7 +416,10 @@ div.text{
     max-width: 120px;
     text-align: center;
 }
-/* Personal Projects Section styling */
+/*#endregion*/
+
+
+/*#region Personal Projects Section styling */
 
 .projects{
     color: #eaeef9;
@@ -437,17 +443,6 @@ div.text{
     padding: 50px;
 }
 
-.project-content .left-card img{
-    max-width: 500px;
-    background-size: cover;
-    border-radius: 30px;
-}
-
-.project-content .left-card img:hover{
-    transform: scale(1.02);
-    transition: transform 0.5s ease-out;
-    cursor: pointer;
-}
 
 div.buttons{
     display: flex;
@@ -482,28 +477,40 @@ div.highlights{
 div.highlights ul{
     list-style: none;
 }
-
+/*#endregion*/
 
 
 /* Random-Stuff Section styling */
-.random-stuff{
+.random-stuff
+{
     color: #eaeef9;
     background-color: #222831;
 }
 
-.random-stuff .title::before{
+.random-stuff .title::before
+{
     background: #eaeef9;
 }
 
- .small-card img{
-    max-width: 250px;
-    background-size: cover;
+.small-card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+ .small-card  img
+ {
+    max-width: 200px;
+    background-size:cover;
     border-radius: 17px;
     border: 3px solid #ffffff;
     margin: 10px;
-}
+ }
 
-/* Responsive Media Query START */
+
+/*#region  Responsive Media Query START */
 
 @media (max-width: 1258px){
     .games .games-content .left-card img{
@@ -568,13 +575,13 @@ div.highlights ul{
 }
 
 @media (max-width: 896px){
-    .random-stuff .random-content .small-card .left-card img{
+    .random-stuff .random-content .small-card  img{
         max-width: 200px;
     }
 }
 
 @media (max-width: 700px){
-    .random-stuff .random-content .small-card .left-card img{
+    .random-stuff .random-content .small-card  img{
         max-width: 170px;
     }
 }
@@ -590,7 +597,7 @@ div.highlights ul{
     .projects .project-content .card .right-card p{
         font-size: 12px;
     }
-    .random-stuff .random-content .small-card .left-card img{
+    .random-stuff .random-content .small-card  img{
         max-width: 130px;
     }
 }
@@ -641,8 +648,8 @@ div.highlights ul{
         width: 100%;
     }
 
-    .random-stuff .random-content .small-card .left-card{
-        flex-direction: column;
+    .random-stuff .random-content .small-card {
+        flex-direction: row;
     }
 
     .about .about-content .right .icons{
@@ -724,3 +731,5 @@ div.highlights ul{
         margin: 2px 2px;
     }
 }
+
+/*#endregion */
