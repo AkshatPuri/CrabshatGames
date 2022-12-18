@@ -410,6 +410,7 @@ div.text{
 
 .games-content{
     text-align: justify;
+    padding: 50px;
 }
 
 .right-card .badge{
@@ -439,10 +440,28 @@ div.text{
     padding: 50px;
 }
 
-.games-content{
-    padding: 50px;
+.project-content .card .right-card .icons
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+    
 }
 
+.project-content .card .right-card .icons i
+{
+    font-size: 2rem;
+    color: #eaeef9;
+    transition: all 0.3s ease;
+}
+.project-content .card .right-card .icons i:hover
+{
+   
+    font-size: 2.5rem;
+    color: #99551d;
+}
 
 div.buttons{
     display: flex;
