@@ -141,7 +141,7 @@ nav.navbar::before{
 
 /*#region About Section styling */
 
-.about, .skills, .games, .projects, .random-stuff{
+.about, .shooter-game, .skills, .games, .projects, .random-stuff{
     font-family: 'Poppins', sans-serif;
 }
 
@@ -290,16 +290,28 @@ nav.navbar::before{
     font-size: 2.2rem;
 }
 
-.about .about-content .right .game-button{
+.shooter-game{
+    background-color: #222831;
+    color: #eaeef9;
+}
+
+.shooter-game .shooter-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.shooter-game .shooter-content .game-button{
     flex-direction: column;
 }
 
-.about .about-content .right .game-button p{
+.shooter-game .shooter-content .game-button p{
     font-size: 1.5rem;
     margin: 10px 5px;
 }
 
-.about .about-content .right .game-button button{
+.shooter-game .shooter-content .game-button button{
     border: 2px solid #99551d;
     border-radius: 4px;
     font-family: 'Poiret One', cursive;
@@ -310,7 +322,7 @@ nav.navbar::before{
 	cursor: pointer;
 }
 
-.about .about-content .right .game-button button:hover{
+.shooter-game .shooter-content .game-button button:hover{
     color: #eaeef9;
     font-size: 1.5rem;
 }

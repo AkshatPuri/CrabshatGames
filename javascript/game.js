@@ -1,6 +1,8 @@
 $("#gamecanvasID").hide();
 function loadCanvas(){
     $("#gamecanvasID").show();
+    $("#game-p").hide();
+    $("#yes-button").hide();
 }
 //Play in full page 
 
