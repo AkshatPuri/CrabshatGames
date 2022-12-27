@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LimbvoidGames</title>
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/212c995959.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
@@ -79,6 +79,13 @@
                                     class="fas fa-envelope icon-img"></i></a>
                         </div>                                                                       
                     </div>
+
+                    <div class="game-button center">
+                        <p>Wanna play a game?</p>
+                        <button onclick="loadCanvas()">Yes</button>
+                        <canvas id="gamecanvasID"></canvas>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -315,9 +322,9 @@
         </div>
     </section>
 
-
-    <script src="scroll.js"></script>
-    <script src="script.js"></script>
+    <script src="javascript/game.js"></script>
+    <script src="javascript/scroll.js"></script>
+    <script src="javascript/script.js"></script>
 </body>
 
 </html>

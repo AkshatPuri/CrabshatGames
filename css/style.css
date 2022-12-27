@@ -289,7 +289,38 @@ nav.navbar::before{
     color: #000000;
     font-size: 2.2rem;
 }
+
+.about .about-content .right .game-button{
+    flex-direction: column;
+}
+
+.about .about-content .right .game-button p{
+    font-size: 1.5rem;
+    margin: 10px 5px;
+}
+
+.about .about-content .right .game-button button{
+    border: 2px solid #99551d;
+    border-radius: 4px;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.3rem;
+    color: #ffffff;
+    background: none;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.about .about-content .right .game-button button:hover{
+    color: #eaeef9;
+    font-size: 1.5rem;
+}
 /*#endregion*/
+
+#canvas {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
 
 /*#region Skills Section styling */
 
@@ -528,6 +559,39 @@ div.highlights ul{
     margin: 10px;
  }
 
+
+/* Game Section Styling */
+.GameSection
+{
+    color: #eaeef9;
+    background-color: #222831;
+}
+
+.GameSection .title::before
+{
+    background: #eaeef9;
+}
+
+.play-card
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+ #gamecanvasID
+{
+ 
+    background: #222831;
+    width: 100%;
+    height: 100%;
+    outline: #d5823e 10px solid;
+    border-radius: 20px;
+    margin: 0;
+    overflow: hidden;
+}
 
 /*#region  Responsive Media Query START */
 
